@@ -1,0 +1,52 @@
+.galerie {
+    background-color: white;
+}
+
+.galerie{
+    color: #242424;
+    margin-bottom: 80px;
+}
+
+.slippers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.slippers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.slippers img , 
+.galerie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteneur {
+    position: relative;
+}
+
+.Photo-hover {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.conteneur {
+    display: flex;
+}
